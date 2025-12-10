@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Xiong — Music Licensing</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0a0a;
+            color: white;
+        }
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #111;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+            background: #151515;
+            border-bottom: 1px solid #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .section {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+        .track {
+            border-bottom: 1px solid #333;
+            padding: 20px 0;
+        }
+        .track-title {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 14px;
+            background: #ff4646;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-top: 1px solid #333;
+            background: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        VINCENT XIONG — MUSIC LICENSING
+    </header>
+
+    <nav>
+        <a href="#catalog">Music Catalog</a>
+        <a href="#licensing">Licensing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="section" id="catalog">
+        <h2>Music Catalog</h2>
+
+        <!-- TRACK 1 TEMPLATE -->
+        <div class="track">
+            <div class="track-title">KAJU — Cinematic Track</div>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no"
+                src="https://w.soundcloud.com/player/?url=YOUR_SOUNDCLOUD_URL_HERE">
+            </iframe>
+
+            <p>Epic cinematic track based on Hmong mythology.</p>
+
+            <a class="buy-btn" href="YOUR_STRIPE_URL_HERE" target="_blank">License This Track</a>
+        </div>
+
+        <!-- DUPLICATE THE BLOCK ABOVE FOR MORE TRACKS -->
+    </div>
+
+    <div class="section" id="licensing">
+        <h2>Licensing Terms</h2>
+        <p><strong>Non-Exclusive License:</strong><br>
+           - You may use the track in your album, film, YouTube video, or project.<br>
+           - You may mix the track with other audio you legally own.<br>
+           - You may NOT claim authorship or redistribute the track by itself.<br>
+           - Vincent keeps all rights to the composition.</p>
+
+        <p><strong>Exclusive License:</strong><br>
+           - Full commercial rights.<br>
+           - Track removed from catalog.<br>
+           - Contact for pricing.</p>
+
+        <p>*If you want to remix the track, a different license is required.*</p>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <strong>your-email@example.com</strong></p>
+
+        <p>Business Inquiry Form:</p>
+        <p><a href="YOUR_GOOGLE_FORM_URL" target="_blank" style="color:#ff4646;">
+            Open Contact Form
+        </a></p>
+    </div>
+
+    <footer>
+        © 2025 Vincent Xiong — All Rights Reserved
+    </footer>
+</body>
+
+</html>
